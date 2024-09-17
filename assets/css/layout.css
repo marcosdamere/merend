@@ -83,7 +83,7 @@ header #logo {
 
 	/* Alinha os itens na horizontal. */
 	align-items: center;
-	background: #00fa9a;
+	
 }
 
 #openMenu, #closeMenu {
@@ -126,7 +126,7 @@ nav a {
 	/* Margem de todos os lados. */
 	margin: 3%;
 	font-size: 15pt;
-	backgound: #fffaf0;
+
 }
 
 main {
