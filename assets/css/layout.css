@@ -60,7 +60,7 @@ header, nav, main, aside, footer {
 header {
 	/* Altura do elemento. */
 	height: 100px;
-	color: Coral;
+	background-color: #1e90ff;
 }
 
 header #logo {
@@ -76,14 +76,14 @@ header #logo {
 	flex: 0 1 200px;
 
 	/* Cor do fundo. */
-	background: #Orange;
+	background: #fffaf0;
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
 
 	/* Alinha os itens na horizontal. */
 	align-items: center;
-	color: Coral;
+	background-color: #00fa9a;
 }
 
 #openMenu, #closeMenu {
@@ -119,27 +119,27 @@ nav {
 
 	/* Altura do elemento. */
 	height: 100px;
-	color: chocolate;
+	backgound-color: #1e90ff;
 }
 
 nav a {
 	/* Margem de todos os lados. */
 	margin: 3%;
 	font-size: 15pt;
-	color: tomato;
+	backgound-color: #fffaf0;
 }
 
 main {
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
-	color: Brown;
+	backgound-color: #1e90ff;
 }
 
 aside {
 	/* Altura do elemento. */
 	height: 100px;
-	color: coral;
+	background-color: #fffaf0;
 }
 
 footer {
@@ -153,7 +153,7 @@ a {
 	text-decoration: none;
 
 	/* Definir a cor da fonte para o padrão do elemento pai. */
-	color: inherit;
+	background-color: #1e90ff;
 }
 
 /* Altera o estilo dos elementos para serem apresentados */ 
@@ -214,12 +214,14 @@ a {
 
 		/* Velocidade de transição de um estado para outro. */
 		transition: 0.3s;
-		color: tan;
+		background-color: #fffaf0;
 	}
 
 	main {
 		/* Realizar a subtração de 100% da altura vertical menos a soma    */
 		/* da altura dos elementos ( 300px ) com as suas margens ( 30px ). */
 		height: calc(100vh - 330px);
+	background-color: #1e90ff;
+		
 	}
 }
