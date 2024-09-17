@@ -37,7 +37,7 @@ body {
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
-	background: #a1a1a1;
+	background: #Peru;
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -52,6 +52,7 @@ header, nav, main, aside, footer {
 	/* flex-shrink - Capacidade de redução do item.    */
 	/* flex-basis – Tamanho inicial do item.           */
 	flex: 1 1 100vw;
+	color: Beige;
 }
 
 /* Seletores para formatação individual. */
@@ -59,6 +60,7 @@ header, nav, main, aside, footer {
 header {
 	/* Altura do elemento. */
 	height: 100px;
+	color: Coral;
 }
 
 header #logo {
@@ -74,13 +76,14 @@ header #logo {
 	flex: 0 1 200px;
 
 	/* Cor do fundo. */
-	background: #c9c9c9;
+	background: #Orange;
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
 
 	/* Alinha os itens na horizontal. */
 	align-items: center;
+	color: Coral;
 }
 
 #openMenu, #closeMenu {
@@ -116,28 +119,33 @@ nav {
 
 	/* Altura do elemento. */
 	height: 100px;
+	color: chocolate;
 }
 
 nav a {
 	/* Margem de todos os lados. */
 	margin: 3%;
 	font-size: 15pt;
+	color: tomato;
 }
 
 main {
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
+	color: Brown;
 }
 
 aside {
 	/* Altura do elemento. */
 	height: 100px;
+	color: coral;
 }
 
 footer {
 	/* Altura do elemento. */
 	height: 100px;
+	
 }
 
 a {
@@ -206,6 +214,7 @@ a {
 
 		/* Velocidade de transição de um estado para outro. */
 		transition: 0.3s;
+		color: tan;
 	}
 
 	main {
