@@ -37,7 +37,7 @@ body {
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
-	background: #Peru;
+	background-color: #CD853F;
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -52,7 +52,7 @@ header, nav, main, aside, footer {
 	/* flex-shrink - Capacidade de redução do item.    */
 	/* flex-basis – Tamanho inicial do item.           */
 	flex: 1 1 100vw;
-	color: Beige;
+
 }
 
 /* Seletores para formatação individual. */
