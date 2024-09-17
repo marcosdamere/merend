@@ -133,13 +133,17 @@ main {
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
-	backgound: #1e90ff;
+	backgound: #7FFFD4
+Misturador de cores
+;
 }
 
 aside {
 	/* Altura do elemento. */
 	height: 100px;
-	background: #7FFF00;
+	background: #7FFFD4
+Misturador de cores
+;
 }
 
 footer {
@@ -153,7 +157,9 @@ a {
 	text-decoration: none;
 
 	/* Definir a cor da fonte para o padrão do elemento pai. */
-	background: #1e90ff;
+	background: #7FFFD4
+Misturador de cores
+;
 }
 
 /* Altera o estilo dos elementos para serem apresentados */ 
@@ -221,7 +227,9 @@ a {
 		/* Realizar a subtração de 100% da altura vertical menos a soma    */
 		/* da altura dos elementos ( 300px ) com as suas margens ( 30px ). */
 		height: calc(100vh - 330px);
-	background: #1e90ff;
+	background: #7FFFD4
+Misturador de cores
+;
 		
 	}
 }
