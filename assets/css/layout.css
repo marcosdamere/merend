@@ -37,7 +37,7 @@ body {
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
-	background-color: #CD853F;
+	background: #CD853F;
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -60,7 +60,7 @@ header, nav, main, aside, footer {
 header {
 	/* Altura do elemento. */
 	height: 100px;
-	background-color: #1e90ff;
+	background: #1e90ff;
 }
 
 header #logo {
@@ -83,7 +83,7 @@ header #logo {
 
 	/* Alinha os itens na horizontal. */
 	align-items: center;
-	background-color: #00fa9a;
+	background: #00fa9a;
 }
 
 #openMenu, #closeMenu {
@@ -119,27 +119,27 @@ nav {
 
 	/* Altura do elemento. */
 	height: 100px;
-	backgound-color: #1e90ff;
+	backgound: #1e90ff;
 }
 
 nav a {
 	/* Margem de todos os lados. */
 	margin: 3%;
 	font-size: 15pt;
-	backgound-color: #fffaf0;
+	backgound: #fffaf0;
 }
 
 main {
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
-	backgound-color: #1e90ff;
+	backgound: #1e90ff;
 }
 
 aside {
 	/* Altura do elemento. */
 	height: 100px;
-	background-color: #fffaf0;
+	background: #fffaf0;
 }
 
 footer {
@@ -153,7 +153,7 @@ a {
 	text-decoration: none;
 
 	/* Definir a cor da fonte para o padrão do elemento pai. */
-	background-color: #1e90ff;
+	background: #1e90ff;
 }
 
 /* Altera o estilo dos elementos para serem apresentados */ 
@@ -214,14 +214,14 @@ a {
 
 		/* Velocidade de transição de um estado para outro. */
 		transition: 0.3s;
-		background-color: #fffaf0;
+		background: #fffaf0;
 	}
 
 	main {
 		/* Realizar a subtração de 100% da altura vertical menos a soma    */
 		/* da altura dos elementos ( 300px ) com as suas margens ( 30px ). */
 		height: calc(100vh - 330px);
-	background-color: #1e90ff;
+	background: #1e90ff;
 		
 	}
 }
