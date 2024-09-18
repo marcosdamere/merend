@@ -141,7 +141,7 @@ Misturador de cores
 aside {
 	/* Altura do elemento. */
 	height: 100px;
-	background: #7FFFD4
+	background: #7FFFD4;
 Misturador de cores
 ;
 }
@@ -157,7 +157,7 @@ a {
 	text-decoration: none;
 
 	/* Definir a cor da fonte para o padrão do elemento pai. */
-	background: #7FFFD4
+	background: #7FFFD4;
 Misturador de cores
 ;
 }
@@ -227,7 +227,7 @@ Misturador de cores
 		/* Realizar a subtração de 100% da altura vertical menos a soma    */
 		/* da altura dos elementos ( 300px ) com as suas margens ( 30px ). */
 		height: calc(100vh - 330px);
-	background: #7FFFD4
+	background: #7FFFD4;
 Misturador de cores
 ;
 		
